@@ -5,7 +5,7 @@ import store from './store';
 import {getCountries} from './actions/actions';
 import { Router, hashHistory } from 'react-router/lib';
 import routes from './routes';
-
+import './country.css'
 
 render(
   <Provider store={store}>
